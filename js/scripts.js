@@ -1,6 +1,6 @@
-function pingPong(inputedNum){
+function pingPong(inputedNumber){
 var output=[];
-for(i=1;i<=inputedNum;i++){
+for(i=1;i<=inputedNumber;i++){
   if(i%15===0){
 output.push("ping-pong");
   }
@@ -15,16 +15,16 @@ output.push("ping-pong");
   }
 }
 return output;
-
 }
+
+/** user interface**/
 $(document).ready(function() {
   $("form#ping-pong").submit(function(event) {
     event.preventDefault();
-    var inputedNum= $("#number").val();
-    var output=pingPong(inputedNum);
+    var inputedNumber= $("#number").val();
+    var output=pingPong(inputedNumber);
     output.forEach(function(element){
     $("#list").append( "<li>"+ element );
   });
-
-  });
+ });
 });
