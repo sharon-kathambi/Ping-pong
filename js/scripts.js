@@ -24,7 +24,7 @@ $(document).ready(function() {
     var inputedNumber= $("#number").val();
     var output=pingPong(inputedNumber);
     output.forEach(function(element){
-    $("#list").append( "<li>"+ element );
+    $("#list").append( "<li>"+ element+"</li>");
   });
  });
 });

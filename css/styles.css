@@ -16,16 +16,19 @@ p{
   font-size: 15px;
 }
 #about{
-  height:500px;
   background-color: #A3E4D7;
   padding-top: 30px;
-  margin-top: -2.4%;
+  margin-top: -2.4%
 }
 .btn{
   background-color: #C0C0C0;
 }
 #rules{
   background-color:#76D7C4;
-  margin-top: -2.4%;
   padding-top: 30px;
+  margin-top:-2.4%
+}
+#enjoy{
+  background-color: #D0ECE7;
+  text-align: center;
 }
